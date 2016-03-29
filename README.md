@@ -19,5 +19,12 @@ But the order is lost.
 
 This program aim to solve this program in a better way.
 
+## Features
+ - read from 1..n file
+ - skip duplicated line(s)
+
+## Todo
+ - trim leading & tailing space
+
 ## Further work
 As there is no timestamp for each line, how to merge two files keeping the 'real order' is not so direct. welcome to have any suggestion :)
