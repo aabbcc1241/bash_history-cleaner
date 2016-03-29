@@ -19,6 +19,17 @@ But the order is lost.
 
 This program aim to solve this program in a better way.
 
+## Usage
+for single input file
+```
+go run src/main.go outputfilename infile1
+```
+for multiple input files
+```
+go run src/main.go outputfilename infile1
+go run src/main.go outputfilename infile1 infile2 infile3
+```
+
 ## Features
  - read from 1..n file
  - skip duplicated line(s)
