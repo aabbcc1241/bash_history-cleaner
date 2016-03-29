@@ -1,4 +1,4 @@
-# bash_history_cleaner
+# .bash_history cleaner
 remove duplicated lines in file
 
 ## Background
