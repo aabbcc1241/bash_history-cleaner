@@ -36,6 +36,8 @@ go run src/main.go outputfilename infile1 infile2 infile3
 
 ## Todo
  - trim leading & tailing space
+ - only show message with "-v" flag
+ - show line reduced with optional flag
 
 ## Further work
 As there is no timestamp for each line, how to merge two files keeping the 'real order' is not so direct. welcome to have any suggestion :)
