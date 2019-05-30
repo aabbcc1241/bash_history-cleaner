@@ -1,4 +1,4 @@
-# .bash_history cleaner
+# uniqcp (.bash_history cleaner)
 remove duplicated lines in file
 
 ## Background
