@@ -20,6 +20,12 @@ But the order is lost.
 This program aim to solve this program in a better way.
 
 ## Usage
+### For Daily Usage
+```
+go get github.com/beenotung/uniqcp # only for first time
+uniqcp outputfilename infile1
+```
+### For Dev
 for single input file
 ```
 go run src/main.go outputfilename infile1
