@@ -22,7 +22,7 @@ func main() {
 		xs := strings.Split(os.Args[0], "/")
 		name := xs[len(xs)-1]
 		fmt.Println(name)
-		fmt.Printf("usaged : %s <output filename> <input file 1> (..<input file n>)\n", name)
+		fmt.Printf("Usage : %s <output filename> <input file 1> (..<input file n>)\n", name)
 		return
 	}
 	outputFilename := os.Args[1]
