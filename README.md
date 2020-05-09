@@ -47,3 +47,6 @@ go run src/main.go outputfilename infile1 infile2 infile3
 
 ## Further work
 As there is no timestamp for each line, how to merge two files keeping the 'real order' is not so direct. welcome to have any suggestion :)
+
+## License
+[BSD-2-Clause Licensed](./LICENSE)
