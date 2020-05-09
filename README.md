@@ -26,12 +26,28 @@ Installing npm package (recommended)
 ```bash
 npm i -g uniqcp
 ```
-Installing Go package (slower)
+Installing Go package (slower, deprecated)
 ```bash
 go get github.com/beenotung/uniqcp
 ```
 
 ## Usage
+```
+Usage: uniqcp [options] <outfile> <infile_1> [...<infile_n>]
+
+Early terminating options:
+  -h | --help    : show this help message
+  -v | --version : show the software name and version
+
+Optional options:
+  -a | --append  : append mode (by default will erase the existing content in the outfile)
+  -v | --verbose : verbose mode, show file in process and total number of unique lines
+
+Remark:
+  When -v is used with outfile and infile(s), it will be treated as verbose flag. Otherwise, it will be treated as version flag.
+```
+
+## Example
 for single input file
 ```bash
 uniqcp outfile infile1
