@@ -9,7 +9,7 @@ export HISTCONTROL=ignoredups
 However, when you're working on multiple account/machine (e.g. desktop, notebook), you might want to merge the history file.
 
 In the past I use this way
-```
+```bash
 cat ~/.bash_history > /tmp/a
 cat "another .bash_history from other account/machine" > /tmp/a
 cat /tmp/a | sort | uniq > ~/.bash_history
@@ -19,21 +19,25 @@ But the order is lost.
 
 This program aim to solve this program in a better way.
 
+## Installation
+Installing npm package (recommended)
+```bash
+npm i -g uniqcp
+```
+Installing Go package (slower)
+```bash
+go get github.com/beenotung/uniqcp
+```
+
 ## Usage
-### For Daily Usage
-```
-go get github.com/beenotung/uniqcp # only for first time
-uniqcp outputfilename infile1
-```
-### For Dev
 for single input file
-```
-go run src/main.go outputfilename infile1
+```bash
+uniqcp outfile infile1
 ```
 for multiple input files
-```
-go run src/main.go outputfilename infile1
-go run src/main.go outputfilename infile1 infile2 infile3
+```bash
+uniqcp outfile infile1
+uniqcp outfile infile1 infile2 infile3
 ```
 
 ## Features

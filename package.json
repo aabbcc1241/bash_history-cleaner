@@ -1,0 +1,33 @@
+{
+  "name": "uniqcp",
+  "version": "1.0.0",
+  "description": "remove duplicated lines in file",
+  "bin": {
+    "uniqcp": "uniqcp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beenotung/uniqcp.git"
+  },
+  "keywords": [
+    "cli",
+    "tool",
+    "copy",
+    "merge",
+    "log",
+    "file"
+  ],
+  "files": [
+    "uniqcp.js"
+  ],
+  "author": {
+    "name": "Beeno Tung",
+    "email": "aabbcc1241@yahoo.com.hk",
+    "url": "https://beeno-tung.surge.sh"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/beenotung/uniqcp/issues"
+  },
+  "homepage": "https://github.com/beenotung/uniqcp#readme"
+}
