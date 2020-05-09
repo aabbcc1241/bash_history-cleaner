@@ -38,7 +38,8 @@ async function main() {
     let input = process.argv[i]
     await scanFile(input)
   }
-  console.log('total written', lines.size, 'lines.')
+  let count = lines.size.toLocaleString()
+  console.log('total written', count, 'lines.')
 }
 
 main()
