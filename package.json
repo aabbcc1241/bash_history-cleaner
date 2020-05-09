@@ -1,6 +1,6 @@
 {
   "name": "uniqcp",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "remove duplicated lines in file",
   "bin": {
     "uniqcp": "uniqcp.js"
