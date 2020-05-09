@@ -1,6 +1,8 @@
 # uniqcp (.bash_history cleaner)
 remove duplicated lines in file
 
+[![npm Package Version](https://img.shields.io/npm/v/uniqcp.svg?maxAge=2592000)](https://www.npmjs.com/package/uniqcp)
+
 ## Background
 To avoid duplicated lines in .bash_history, you can add the below line in .bashrc
 ```
